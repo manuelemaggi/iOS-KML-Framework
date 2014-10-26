@@ -1,8 +1,5 @@
 # iOS-KML-Framework
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/iOS-KML-Framework/badge.png)](http://cocoadocs.org/docsets/iOS-KML-Framework)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/iOS-KML-Framework/badge.png)](http://cocoadocs.org/docsets/iOS-KML-Framework)
-
 This is a iOS framework for parsing/generating KML files.
 This Framework parses the KML from a URL or Strings and create Objective-C Instances of KML structure. 
 
