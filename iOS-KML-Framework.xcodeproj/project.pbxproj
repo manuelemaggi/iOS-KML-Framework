@@ -82,37 +82,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D96376DC19FD1FDE0073FB34 /* PBXContainerItemProxy */ = {
+		D91E08EE19FD361B002800C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */;
+			containerPortal = D91E08E719FD361B002800C4 /* TBXML.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 829FA09C14D5B52A00D18697;
 			remoteInfo = TBXML;
 		};
-		D96376DE19FD1FDE0073FB34 /* PBXContainerItemProxy */ = {
+		D91E08F019FD361B002800C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */;
+			containerPortal = D91E08E719FD361B002800C4 /* TBXML.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 829FA0B014D5B52A00D18697;
 			remoteInfo = TBXMLTests;
 		};
-		D96376E019FD1FDE0073FB34 /* PBXContainerItemProxy */ = {
+		D91E08F219FD361B002800C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */;
+			containerPortal = D91E08E719FD361B002800C4 /* TBXML.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8290352514D9F5B200ACF7E4;
 			remoteInfo = "TBXML-iOS";
 		};
-		D96376E219FD1FDE0073FB34 /* PBXContainerItemProxy */ = {
+		D91E08F419FD361B002800C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */;
+			containerPortal = D91E08E719FD361B002800C4 /* TBXML.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8290353314D9F5B200ACF7E4;
 			remoteInfo = "TBXML-iOSTests";
 		};
-		D96376E419FD20000073FB34 /* PBXContainerItemProxy */ = {
+		D91E08F619FD3631002800C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */;
+			containerPortal = D91E08E719FD361B002800C4 /* TBXML.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8290352414D9F5B200ACF7E4;
 			remoteInfo = "TBXML-iOS";
@@ -135,6 +135,7 @@
 		D904C90F19FD1CAC000DC651 /* libiOS-KML-Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-KML-Framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D904C91219FD1CAC000DC651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D904C91619FD1CAC000DC651 /* iOS-KML-Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-KML-Framework-Prefix.pch"; sourceTree = "<group>"; };
+		D91E08E719FD361B002800C4 /* TBXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TBXML.xcodeproj; path = Dependencies/TBXML/TBXML.xcodeproj; sourceTree = "<group>"; };
 		D963760019FD1D8B0073FB34 /* KML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KML.h; sourceTree = "<group>"; };
 		D963760119FD1D8B0073FB34 /* KMLAbstractColorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLAbstractColorStyle.h; sourceTree = "<group>"; };
 		D963760219FD1D8B0073FB34 /* KMLAbstractColorStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLAbstractColorStyle.m; sourceTree = "<group>"; };
@@ -277,7 +278,6 @@
 		D963768B19FD1D8C0073FB34 /* KMLViewVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLViewVolume.m; sourceTree = "<group>"; };
 		D96376D119FD1F570073FB34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D96376D319FD1F9E0073FB34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TBXML.xcodeproj; path = Dependencies/TBXML/TBXML.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,7 +314,7 @@
 		D904C91119FD1CAC000DC651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */,
+				D91E08E719FD361B002800C4 /* TBXML.xcodeproj */,
 				D96376D319FD1F9E0073FB34 /* UIKit.framework */,
 				D96376D119FD1F570073FB34 /* CoreGraphics.framework */,
 				D904C91219FD1CAC000DC651 /* Foundation.framework */,
@@ -337,6 +337,17 @@
 				D904C91619FD1CAC000DC651 /* iOS-KML-Framework-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D91E08E819FD361B002800C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91E08EF19FD361B002800C4 /* libTBXML.a */,
+				D91E08F119FD361B002800C4 /* TBXMLTests.octest */,
+				D91E08F319FD361B002800C4 /* libTBXML-iOS.a */,
+				D91E08F519FD361B002800C4 /* TBXML-iOSTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D96375FF19FD1D8B0073FB34 /* Classes */ = {
@@ -486,17 +497,6 @@
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
 		};
-		D96376D619FD1FDE0073FB34 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D96376DD19FD1FDE0073FB34 /* libTBXML.a */,
-				D96376DF19FD1FDE0073FB34 /* TBXMLTests.octest */,
-				D96376E119FD1FDE0073FB34 /* libTBXML-iOS.a */,
-				D96376E319FD1FDE0073FB34 /* TBXML-iOSTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,7 +511,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D96376E519FD20000073FB34 /* PBXTargetDependency */,
+				D91E08F719FD3631002800C4 /* PBXTargetDependency */,
 			);
 			name = "iOS-KML-Framework";
 			productName = "iOS-KML-Framework";
@@ -539,8 +539,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D96376D619FD1FDE0073FB34 /* Products */;
-					ProjectRef = D96376D519FD1FDE0073FB34 /* TBXML.xcodeproj */;
+					ProductGroup = D91E08E819FD361B002800C4 /* Products */;
+					ProjectRef = D91E08E719FD361B002800C4 /* TBXML.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -551,32 +551,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D96376DD19FD1FDE0073FB34 /* libTBXML.a */ = {
+		D91E08EF19FD361B002800C4 /* libTBXML.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTBXML.a;
-			remoteRef = D96376DC19FD1FDE0073FB34 /* PBXContainerItemProxy */;
+			remoteRef = D91E08EE19FD361B002800C4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D96376DF19FD1FDE0073FB34 /* TBXMLTests.octest */ = {
+		D91E08F119FD361B002800C4 /* TBXMLTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TBXMLTests.octest;
-			remoteRef = D96376DE19FD1FDE0073FB34 /* PBXContainerItemProxy */;
+			remoteRef = D91E08F019FD361B002800C4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D96376E119FD1FDE0073FB34 /* libTBXML-iOS.a */ = {
+		D91E08F319FD361B002800C4 /* libTBXML-iOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libTBXML-iOS.a";
-			remoteRef = D96376E019FD1FDE0073FB34 /* PBXContainerItemProxy */;
+			remoteRef = D91E08F219FD361B002800C4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D96376E319FD1FDE0073FB34 /* TBXML-iOSTests.octest */ = {
+		D91E08F519FD361B002800C4 /* TBXML-iOSTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "TBXML-iOSTests.octest";
-			remoteRef = D96376E219FD1FDE0073FB34 /* PBXContainerItemProxy */;
+			remoteRef = D91E08F419FD361B002800C4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -661,10 +661,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D96376E519FD20000073FB34 /* PBXTargetDependency */ = {
+		D91E08F719FD3631002800C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TBXML-iOS";
-			targetProxy = D96376E419FD20000073FB34 /* PBXContainerItemProxy */;
+			targetProxy = D91E08F619FD3631002800C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

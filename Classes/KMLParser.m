@@ -33,7 +33,7 @@
 
 + (KMLRoot *)parseKMLWithString:(NSString*)string
 {
-    TBXML *xml = [TBXML tbxmlWithXMLString:string error:nil];
+    TBXML *xml = [TBXML newTBXMLWithXMLString:string error:nil];
     if (xml.rootXMLElement) {
         return [[KMLRoot alloc] initWithXMLElement:xml.rootXMLElement parent:nil];
     }
@@ -43,7 +43,7 @@
 
 + (KMLRoot *)parseKMLWithData:(NSData*)data
 {
-    TBXML *xml = [TBXML tbxmlWithXMLData:data error:nil];
+    TBXML *xml = [TBXML newTBXMLWithXMLData:data error:nil];
     if (xml.rootXMLElement) {
         return [[KMLRoot alloc] initWithXMLElement:xml.rootXMLElement parent:nil];
     }
