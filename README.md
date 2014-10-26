@@ -1,8 +1,5 @@
 # iOS-KML-Framework
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/iOS-KML-Framework/badge.png)](http://cocoadocs.org/docsets/iOS-KML-Framework)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/iOS-KML-Framework/badge.png)](http://cocoadocs.org/docsets/iOS-KML-Framework)
-
 This is a iOS framework for parsing/generating KML files.
 This Framework parses the KML from a URL or Strings and create Objective-C Instances of KML structure. 
 
@@ -44,10 +41,9 @@ point.coordinate = coordinate;
 
 ## Installation
 
-iOS-KML-Framework is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile:
+This is a stand alone library including TBXML as submodule dependency when you clone this repo don't forget to initialise the submodules like this:
 
-    pod 'iOS-KML-Framework', :git => 'https://github.com/FLCLjp/iOS-KML-Framework.git'
+    git submodule update --init --recursive
 
 ## Author
 
