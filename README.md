@@ -41,10 +41,9 @@ point.coordinate = coordinate;
 
 ## Installation
 
-iOS-KML-Framework is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile:
+This is a stand alone library including TBXML as submodule dependency when you clone this repo don't forget to initialise the submodules like this:
 
-    pod 'iOS-KML-Framework', :git => 'https://github.com/FLCLjp/iOS-KML-Framework.git'
+    git submodule update --init --recursive
 
 ## Author
 
